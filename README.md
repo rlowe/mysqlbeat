@@ -32,9 +32,8 @@ MySQLbeat exports a variety of sections:
 
 * type: status - Output of 'SHOW GLOBAL STATUS'
 * type: variables - Output of 'SHOW GLOBAL VARIABLES'
-* type: processlist - 
 * type: sysschema - 
-* type: replication - 
+* type: repl - 
 
 ...
 

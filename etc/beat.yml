@@ -1,0 +1,32 @@
+################### MySQLbeat Configuration Example #########################
+
+############################# Input ############################################
+input:
+  # In seconds, defines how often to read statistics
+  #period: 10
+
+  # Host of MySQL server, default is localhost
+  #host: "localhost"
+
+  # Port the MySQL server is listening on, default is 3306
+  #port: 3306
+
+  # Network type, default is tcp
+  #network: "tcp"
+
+  # Max connections for MySQL pool, default is 10
+  #maxconn: 10
+
+  # Statistics to collect (all enabled by default)
+  stats:
+    # SHOW GLOBAL STATUS
+    #status: true
+
+    # SHOW GLOBAL VARIABLES
+    #variables: true
+
+    # REPLICATION
+    #repl: true
+
+    # SYS_SCHEMA information
+    #sysschema: true
